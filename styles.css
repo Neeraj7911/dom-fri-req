@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.card{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 10%;
+}
+.card img{
+    height: 50%;
+    width: 150px;
+    background-color: black;
+    border-radius: 100%;
+}
+.profilepic{
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    padding-left: 105px;
+    padding-top: 25px;
+}
+.card h1{
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 185px;
+    margin-left: 21px;
+}
+.card h5{
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 115px;
+    color: red;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 125px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 800;
+    background-color: rgb(0, 200, 255);
+}
